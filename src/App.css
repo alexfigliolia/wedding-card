@@ -429,7 +429,7 @@ body {
               font-size: 7vh; } }
           @media only screen and (min-width: 375px) and (min-height: 635px) {
             .slide1 > div > h1 > div > h1 {
-              font-size: 7.5vh; } }
+              font-size: 6.75vh; } }
           @media (min-width: 670px) {
             .slide1 > div > h1 > div > h1 {
               font-size: 10vh; } }
