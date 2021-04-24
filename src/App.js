@@ -79,14 +79,14 @@ export default class App extends Component {
               </div>
             </Slide3>
             <Slide3
-              color={this.colors[0]}
+              color={this.colors[1]}
               activeIndex={activeIndex}
               index={4}
               classes={activeIndex === 4 ? 'slide3 slide3-show' : 'slide3'}>
               <div className='notes'>
-                <div className='note'>Hi Matt. I hope you have a great birthday weekend!  Happy returns to your day today and many more to come !! <br /><br />- Jim</div>
-                <div className='note'>Matt, may this year be as successful as the last! Happy Birthday!<br /><br />- Luke</div>
-                <div className='note'>Happy Birthday Matt!  Wishing you many special moments on this special day!<br /><br /> - Andy</div>
+                <div className='note'>Congratulations and best of wishes for your future together!<br /><br />- Mati</div>
+                <div className='note'>Congratulations to both of you. Wish you a very Happy Married Life !!<br /><br />- Ratnakar</div>
+                <div className='note'>Congrats on your special day guys! What a year it's been for you two! Wishing you many more exciting adventures!<br /><br />- Alex</div>
               </div>
             </Slide3>
             <Slide3
@@ -106,7 +106,6 @@ export default class App extends Component {
               index={6}
               classes={activeIndex === 6 ? 'slide3 slide3-show' : 'slide3'}>
               <div className='notes'>
-                <div className='note'>Wishing you another wonderful year of happiness and joy. Happy Birthday Matt!<br /><br />- Dayana</div>
                 <div className='note'>Wishing you both a journey full of joy, happiness, and rich stories to share for generations to come!<br /><br />- Bassam</div>
                 <div className='note'>Congratulations and best wishes for a lifetime of love and happiness!<br /><br />- Lee Ann</div>
               </div>
@@ -232,24 +231,13 @@ export default class App extends Component {
                 <div className='note'>Congratulations to both of you, wishing you a happy life together!<br /><br />- Jamie</div>
               </div>
             </Slide3>
-            <Slide3
-              color={this.colors[1]}
-              activeIndex={activeIndex}
-              index={18}
-              classes={activeIndex === 18 ? 'slide3 slide3-show' : 'slide3'}>
-              <div className='notes'>
-                <div className='note'>Congratulations and best of wishes for your future together!<br /><br />- Mati</div>
-                <div className='note'>Congratulations to both of you. Wish you a very Happy Married Life !!<br /><br />- Ratnakar</div>
-                <div className='note'>Congrats on your special day guys! What a year it's been for you two! Wishing you many more exciting adventures!<br /><br />- Alex</div>
-              </div>
-            </Slide3>
             <Slide1
               text1='Love,'
               text2='Carta'
               color={this.colors[3]}
               activeIndex={activeIndex}
-              index={19}
-              classes={activeIndex === 19 ? 'slide1 slide-end slide1-show' : 'slide1 slide-end'} />
+              index={18}
+              classes={activeIndex === 18 ? 'slide1 slide-end slide1-show' : 'slide1 slide-end'} />
           </div>
         </div>
       </Fragment>
