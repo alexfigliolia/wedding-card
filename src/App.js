@@ -246,7 +246,7 @@ export default class App extends Component {
             <Slide1
               text1='Love,'
               text2='Carta'
-              color={this.colors[2]}
+              color={this.colors[3]}
               activeIndex={activeIndex}
               index={19}
               classes={activeIndex === 19 ? 'slide1 slide-end slide1-show' : 'slide1 slide-end'} />
