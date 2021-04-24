@@ -426,13 +426,16 @@ body {
           text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25); }
           @media (min-width: 375px) {
             .slide1 > div > h1 > div > h1 {
-              font-size: 10vh; } }
+              font-size: 7vh; } }
           @media only screen and (min-width: 375px) and (min-height: 635px) {
             .slide1 > div > h1 > div > h1 {
-              font-size: 9vh; } }
+              font-size: 7.5vh; } }
           @media (min-width: 670px) {
             .slide1 > div > h1 > div > h1 {
-              font-size: 15vh; } }
+              font-size: 10vh; } }
+          @media (min-width: 957px) {
+            .slide1 > div > h1 > div > h1 {
+              font-size: 13vh; } }
         .slide1 > div > h1 > div > .burst {
           position: absolute;
           top: -15px;
@@ -510,10 +513,10 @@ body {
           text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25); }
           @media (min-width: 375px) {
             .slide2 > div > h1 > div > h1 {
-              font-size: 11vh; } }
+              font-size: 10vh; } }
           @media only screen and (min-width: 375px) and (min-height: 635px) {
             .slide2 > div > h1 > div > h1 {
-              font-size: 9.5vh; } }
+              font-size: 9vh; } }
           @media (min-width: 670px) {
             .slide2 > div > h1 > div > h1 {
               font-size: 16vh; } }
@@ -592,7 +595,7 @@ body {
   align-items: center;
   overflow: hidden;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-  font-family: 'Patua One', sans-serif; }
+  font-family: "Patua One", sans-serif; }
   .slide3 > div {
     display: flex;
     justify-content: center;
@@ -607,7 +610,7 @@ body {
       .slide3 > div {
         justify-content: center; } }
     .slide3 > div > p {
-      font-size: 4.5vh;
+      font-size: 4.25vh;
       font-weight: 700;
       opacity: 0;
       transition-duration: 0.5s;
@@ -619,7 +622,7 @@ body {
       text-shadow: 0px 0px 2.5px #000; }
       @media only screen and (min-width: 375px) and (min-height: 635px) {
         .slide3 > div > p {
-          font-size: 4vh; } }
+          font-size: 3.75vh; } }
     .slide3 > div > .notes {
       width: 90%;
       height: auto;
@@ -656,7 +659,7 @@ body {
       height: 45px;
       width: 45px;
       border-radius: 50%;
-      background: #A2A8F8;
+      background: #a2a8f8;
       transform: scale(0);
       display: flex;
       justify-content: center;
@@ -668,36 +671,36 @@ body {
         width: 15px;
         border-radius: 50%;
         transform: scale(0);
-        background: #A2A8F8;
+        background: #a2a8f8;
         transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275); }
       .slide3 > div > .shape:nth-of-type(2) {
         top: calc(45% - 25px);
         left: 10%;
-        background: #47FEA0; }
+        background: #47fea0; }
         .slide3 > div > .shape:nth-of-type(2) > div {
-          background: #47FEA0; }
+          background: #47fea0; }
       .slide3 > div > .shape:nth-of-type(3) {
         top: auto;
         bottom: 10%;
         left: calc(25% - 25px);
-        background: #F6FE55; }
+        background: #f6fe55; }
         .slide3 > div > .shape:nth-of-type(3) > div {
-          background: #F6FE55; }
+          background: #f6fe55; }
       .slide3 > div > .shape:nth-of-type(4) {
         top: auto;
         left: auto;
         bottom: 10%;
         right: calc(25% - 25px);
-        background: #4C4CF8; }
+        background: #4c4cf8; }
         .slide3 > div > .shape:nth-of-type(4) > div {
-          background: #4C4CF8; }
+          background: #4c4cf8; }
       .slide3 > div > .shape:nth-of-type(5) {
         left: auto;
         top: calc(45% - 25px);
         right: 10%;
-        background: #F5FD77; }
+        background: #f5fd77; }
         .slide3 > div > .shape:nth-of-type(5) > div {
-          background: #F5FD77; }
+          background: #f5fd77; }
 
 .slide3-show > div > p,
 .slide3-show > div > .notes,

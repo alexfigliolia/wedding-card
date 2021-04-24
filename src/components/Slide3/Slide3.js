@@ -18,7 +18,7 @@ export default class Slide3 extends Component {
 				<div>
 					{
 						children ||
-						<p>From all of us at Carta, we wish you the happiest of birthdays! We are truly grateful for your leadership and are inspired by your vision. Congratulations on all you've achieved this year. We are so happy to be by your side!</p>
+						<p>From all of us at Carta, we'd like to take the chance to wish you a warm congratulations on your special day together. We wish you a bright and happy future with tons of wonderful moments, special days, and happy times!</p>
 					}
 					<div
 						className='shape'

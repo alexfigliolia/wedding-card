@@ -1,35 +1,35 @@
 .slide3 {
 	@include center;
-  overflow: hidden;
-  @include headerShadow;
-	font-family: 'Patua One', sans-serif;
-  &>div {
+	overflow: hidden;
+	@include headerShadow;
+	font-family: "Patua One", sans-serif;
+	& > div {
 		@include center;
 		justify-content: flex-start;
-    height: 100%;
-    width: 100%;
-    flex-direction: column;
-    position: relative;
+		height: 100%;
+		width: 100%;
+		flex-direction: column;
+		position: relative;
 		margin: auto;
 		@media #{$mq-957} {
 			justify-content: center;
 		}
-    &>p {
-    	font-size: 4.5vh;
-        font-weight: 700;
-    	opacity: 0;
-    	transition-duration: 0.5s;
-    	transition-delay: 0.3s;
-        line-height: 1.5;
-    	width: 90%;
-    	max-width: 600px;
-    	color: #fff;
-    	text-shadow: 0px 0px 2.5px #000;
-        @media #{$mq-iphoneX} {
-            font-size: 4vh;
-        }
+		& > p {
+			font-size: 4.25vh;
+			font-weight: 700;
+			opacity: 0;
+			transition-duration: 0.5s;
+			transition-delay: 0.3s;
+			line-height: 1.5;
+			width: 90%;
+			max-width: 600px;
+			color: #fff;
+			text-shadow: 0px 0px 2.5px #000;
+			@media #{$mq-iphoneX} {
+				font-size: 3.75vh;
+			}
 		}
-		&>.notes {
+		& > .notes {
 			width: 90%;
 			height: auto;
 			@include center;
@@ -37,10 +37,10 @@
 			flex-direction: row;
 			flex-wrap: wrap;
 			opacity: 0;
-    	transition-duration: 0.5s;
+			transition-duration: 0.5s;
 			transition-delay: 0.3s;
 			color: #fff;
-			&>.note {
+			& > .note {
 				width: 100%;
 				color: #fff;
 				@include center;
@@ -56,85 +56,89 @@
 				}
 			}
 		}
-    &>.shape {
-    	position: absolute;
-    	top: 10%; left: calc(50% - 25px);
-    	height: 45px; width: 45px;
-    	border-radius: 50%;
-    	background: #A2A8F8;
-    	transform: scale(0);
-    	@include center;
-    	justify-content: space-between;
-    	transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    	&>div {
-    		height: 15px; width: 15px;
-    		border-radius: 50%;
-    		transform: scale(0);
-    		background: #A2A8F8;
-    		transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    	}
-    	&:nth-of-type(2) {
-    		top: calc(45% - 25px);
-    		left: 10%;
-    		background: #47FEA0;
-    		&>div {
-    			background: #47FEA0;
-    		}
-    	}
-    	&:nth-of-type(3) {
-    		top: auto;
-    		bottom: 10%;
-    		left: calc(25% - 25px);
-    		background: #F6FE55;
-    		&>div {
-    			background: #F6FE55;
-    		}
-    	}
-    	&:nth-of-type(4) {
-    		top: auto; left: auto;
-    		bottom: 10%;
-    		right: calc(25% - 25px);
-    		background: #4C4CF8;
-    		&>div {
-    			background: #4C4CF8;
-    		}
-    	}
-    	&:nth-of-type(5) {
-    		left: auto;
-    		top: calc(45% - 25px);
-    		right: 10%;
-    		background: #F5FD77;
-    		&>div {
-    			background: #F5FD77;
-    		}
-    	}
-    }
-  }
+		& > .shape {
+			position: absolute;
+			top: 10%;
+			left: calc(50% - 25px);
+			height: 45px;
+			width: 45px;
+			border-radius: 50%;
+			background: #a2a8f8;
+			transform: scale(0);
+			@include center;
+			justify-content: space-between;
+			transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+			& > div {
+				height: 15px;
+				width: 15px;
+				border-radius: 50%;
+				transform: scale(0);
+				background: #a2a8f8;
+				transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+			}
+			&:nth-of-type(2) {
+				top: calc(45% - 25px);
+				left: 10%;
+				background: #47fea0;
+				& > div {
+					background: #47fea0;
+				}
+			}
+			&:nth-of-type(3) {
+				top: auto;
+				bottom: 10%;
+				left: calc(25% - 25px);
+				background: #f6fe55;
+				& > div {
+					background: #f6fe55;
+				}
+			}
+			&:nth-of-type(4) {
+				top: auto;
+				left: auto;
+				bottom: 10%;
+				right: calc(25% - 25px);
+				background: #4c4cf8;
+				& > div {
+					background: #4c4cf8;
+				}
+			}
+			&:nth-of-type(5) {
+				left: auto;
+				top: calc(45% - 25px);
+				right: 10%;
+				background: #f5fd77;
+				& > div {
+					background: #f5fd77;
+				}
+			}
+		}
+	}
 }
 
 .slide3-show {
-	&>div {
-		&>p,
-		&>.notes,
-		&>.scroller-down {
+	& > div {
+		& > p,
+		& > .notes,
+		& > .scroller-down {
 			opacity: 1;
 		}
-		&>.shape {
+		& > .shape {
 			transform: scale(1);
 			background: transparent;
 			&:nth-of-type(2) {
-    		background: transparent;
-    	}
-    	&:nth-of-type(3) {
-    		background: transparent;
-    	}
-    	&:nth-of-type(4) {
-    		background: transparent;
-    	}
-    	&:nth-of-type(5) {
-    		background: transparent;
-    	}
-			&>div {
+				background: transparent;
+			}
+			&:nth-of-type(3) {
+				background: transparent;
+			}
+			&:nth-of-type(4) {
+				background: transparent;
+			}
+			&:nth-of-type(5) {
+				background: transparent;
+			}
+			& > div {
 				transform: scale(1);
 				background: transparent;
 				&:nth-of-type(1) {
@@ -155,13 +159,13 @@
 }
 
 @keyframes float {
-  0% {
-    transform: translateY(0px);
-  }
-  50% {
-    transform: translateY(10px);
+	0% {
+		transform: translateY(0px);
+	}
+	50% {
+		transform: translateY(10px);
 	}
 	100% {
-    transform: translateY(0px);
-  }
+		transform: translateY(0px);
+	}
 }
